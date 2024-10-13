@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="output.css" rel="stylesheet">
+    <title>weather app</title>
+</head>
+<body class="bg-black">
+
+    <div class=" flex flex-row justify-center ">
+    <div class="bg-gradient-135 my-10 h-[650px] w-[450px] rounded-md">
+        <div class="flex flex-row justify-between p-10">
+   <input  class="rounded-full h-12 w-72 " type="text" placeholder="    type your city">
+   <button class="rounded-full w-10 h-10  bg-white"><img  src="/images/search.png"></button>
+</div>
+<div class="flex flex-col items-center py-10 justify-between ">
+    <img id="statut" class="w-48" src="/images/clear.png">
+    <h1 id="temp"class="font-bold text-5xl">7<span>°C</span></h1>
+    <h1 id="city_name" class="font-bold text-5xl">New York</h1>
+</div>
+<div class="flex flex-row justify-between m-20">
+    <div class="flex flex-row justify-start py-2 ">
+        <img class="w-10 h-10" src="/images/humidity.png">
+        <div class="flex flex-col px-5">
+        <h1 id="humidity" class="font-bold text-1xl text-white">48%</h1>
+        <h1  class="font-semibold text-1xl text-white">Humidity</h1>
+    </div>
+    </div>
+    <div class="flex flex-row justify-end  py-2">
+        <img class="w-12 h-12" src="/images/wind.png">
+        <div class="flex flex-col ">
+        <h1 id="win_Speed" class="font-bold text-1xl text-white">10.29km/h</h1>
+        <h1 class="font-semibold  text-white">Wind Speed</h1>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+
+<script src="script.js" defer>
+
+</script>
+</body>
+</html>
